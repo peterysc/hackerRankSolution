@@ -6,6 +6,11 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+// input :
+// 4 1  meaning array with 4 elements, shift left once
+// 1 2 3 4   array
+// output: 2 3 4 1
+
 public class ArrayLeftRotation {
 
     public static int[] arrayLeftRotation(int[] a, int n, int k) {
@@ -34,8 +39,10 @@ public class ArrayLeftRotation {
       
         int[] output = new int[n];
         output = arrayLeftRotation(a, n, k);
-        for(int i = 0; i < n; i++)
-            System.out.print(output[i] + " ");
+        for(int i = 0; i < n; i++){
+        	System.out.print(output[i] + " ");
+        }
+            
       
         System.out.println();
       
