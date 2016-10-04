@@ -7,6 +7,10 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
+/*
+ *  given a text file with N number of email lists, find the unique ones and print them in the order 
+ *  it appeared from the text file
+ */
 
 // run time of O(n)
 // space O(n) - doublecheck for hashmap at a large number of keys
