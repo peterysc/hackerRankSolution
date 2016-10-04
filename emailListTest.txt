@@ -1,0 +1,4 @@
+test@google.ca
+test@amazon.ca
+test@ubc.ca
+test@google.ca
