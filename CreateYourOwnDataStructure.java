@@ -17,11 +17,14 @@ import java.util.Queue;
  */
 public class CreateYourOwnDataStructure {
 	
-	static HashMap<Integer,Integer> numbers = new HashMap<Integer,Integer>();
-	static Queue<Integer> lastDeletedIndex = new LinkedList<Integer>();
-	static ArrayList<Integer> numberIndex = new ArrayList<Integer>();
+	static HashMap<Integer,Integer> numbers;
+	static Queue<Integer> lastDeletedIndex;
+	static ArrayList<Integer> numberIndex;
 	
 	public static void main(String[] args){
+		numbers = new HashMap<Integer,Integer>();
+		lastDeletedIndex = new LinkedList<Integer>();
+		numberIndex = new ArrayList<Integer>();
 		add(2);
 		add(8);
 		add(10);
