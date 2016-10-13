@@ -1,7 +1,10 @@
 package hackerrank;
 
 public class isBST {
-	
+	/*
+	 * Time complexity : O(n)
+	 * Space complexity: unless the function call stack takes a constant time, this code will take O(n)
+	 */
 	static BST root;
 	
 	public static void main(String[] args){
