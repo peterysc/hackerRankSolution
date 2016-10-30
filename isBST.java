@@ -10,9 +10,9 @@ public class isBST {
 	public static void main(String[] args){
 		BST root = new BST(10);
 		BST bst1 = new BST(7);
-		BST bst2 = new BST(12);
+		BST bst2 = new BST(14);
 		BST bst3 = new BST(5);
-		BST bst4 = new BST(12);
+		BST bst4 = new BST(9);
 		root.left = bst1;
 		root.right = bst2;
 		bst1.left = bst3;
